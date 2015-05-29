@@ -24,6 +24,7 @@
 <!-- The hangout API JavaScript. Always include this first -->
 <script src="//plus.google.com/hangouts/_/api/v1/hangout.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+<link rel="stylesheet" href="//puzzles-karaoke.appspot.com/static/app.css">
 <!-- The JavaScript for this app. This must always be a full URL not a
      relative path.
      Tip: You can load it from a local web server such as
