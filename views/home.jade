@@ -1,0 +1,48 @@
+extends layout
+
+block content
+  section#one.main.special
+    .container
+      .content
+        header.major
+          h2 Try it Out!
+          //- #filedrag Drop your MP3 file here (also .ogg or .wav)
+          #fileselect-container
+            label(for="fileselect") Or select a file:
+            input#fileselect(type="file", name="fileselect[]")
+          #current-song
+      a.goto-next.scrolly(href="#two") Next
+  // Two
+  section#two.main.special
+    .container
+      span.image.fit.primary
+        img(src="images/pic02.jpg", alt="")
+      .content
+        header.major
+          h2 Puzzles Karaoke
+        p
+          | Virtual Karaoke with any of your friends. Anytime. Anywhere
+        ul.icons-grid
+          li
+            span.icon.major.fa-video-camera
+            h3 Video
+          li
+            span.icon.major.fa-music
+            h3 Music
+          li
+            span.icon.major.fa-users
+            h3 Friends
+          li
+            span.icon.major.fa-microphone
+            h3 Karaoke
+      a.goto-next.scrolly(href="#three") Next
+  // Three
+  section#three.main.special
+    .container
+      span.image.fit.primary
+        img(src="images/pic02.jpg", alt="")
+      .content
+        header.major
+          h2 Sign up now
+        p Just sign in with any existing google account and start singing now!
+        //- form to login using google account
